@@ -15,7 +15,6 @@
     {
         (*a)++;
         i_am_a_global_variable += *a;
-        return;
     }
     int some_function(int a)
     {
