@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 #Mac OS X auto metadata file
 .DS_Store
 
 #bject files
+=======
+# Object files
+>>>>>>> 9e261795ab764c7654539a51259ebd0b8eca6fe3
 *.o
 *.ko
 *.obj
@@ -31,3 +35,8 @@
 *.x86_64
 *.hex
 
+<<<<<<< HEAD
+=======
+# Debug files
+*.dSYM/
+>>>>>>> 9e261795ab764c7654539a51259ebd0b8eca6fe3
