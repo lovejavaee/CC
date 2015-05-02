@@ -64,6 +64,14 @@
 		C0A9F4DC1AF4894A00672211 /* learning_c */ = {
 			isa = PBXGroup;
 			children = (
+				C0A9F4EB1AF4AF1B00672211 /* view Controllers */,
+			);
+			path = learning_c;
+			sourceTree = "<group>";
+		};
+		C0A9F4EB1AF4AF1B00672211 /* view Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				C0A9F4DD1AF4894A00672211 /* main.c */,
 				C0A9F4EA1AF490A500672211 /* main.h */,
 				C0A9F4E71AF48DEB00672211 /* Hello.c */,
@@ -71,7 +79,7 @@
 				C0A9F4E41AF48C0F00672211 /* debug_01.c */,
 				C0A9F4E51AF48C0F00672211 /* debug_01.h */,
 			);
-			path = learning_c;
+			name = "view Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +254,7 @@
 				C0A9F4E31AF4894A00672211 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
