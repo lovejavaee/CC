@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C0A9F4D91AF4894A00672211"
-               BuildableName = "learning_c"
-               BlueprintName = "learning_c"
-               ReferencedContainer = "container:learning_c.xcodeproj">
+               BuildableName = "sp_c"
+               BlueprintName = "sp_c"
+               ReferencedContainer = "container:sp_c.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0A9F4D91AF4894A00672211"
-            BuildableName = "learning_c"
-            BlueprintName = "learning_c"
-            ReferencedContainer = "container:learning_c.xcodeproj">
+            BuildableName = "sp_c"
+            BlueprintName = "sp_c"
+            ReferencedContainer = "container:sp_c.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0A9F4D91AF4894A00672211"
-            BuildableName = "learning_c"
-            BlueprintName = "learning_c"
-            ReferencedContainer = "container:learning_c.xcodeproj">
+            BuildableName = "sp_c"
+            BlueprintName = "sp_c"
+            ReferencedContainer = "container:sp_c.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C0A9F4D91AF4894A00672211"
-            BuildableName = "learning_c"
-            BlueprintName = "learning_c"
-            ReferencedContainer = "container:learning_c.xcodeproj">
+            BuildableName = "sp_c"
+            BlueprintName = "sp_c"
+            ReferencedContainer = "container:sp_c.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

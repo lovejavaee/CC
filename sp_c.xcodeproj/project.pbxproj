@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C0A9F4DE1AF4894A00672211 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A9F4DD1AF4894A00672211 /* main.c */; };
-		C0A9F4E61AF48C0F00672211 /* debug_01.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A9F4E41AF48C0F00672211 /* debug_01.c */; };
-		C0A9F4E91AF48DEB00672211 /* Hello.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A9F4E71AF48DEB00672211 /* Hello.c */; };
+		C0A23DD51AF4C0990019E81F /* debug_01.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23DCF1AF4C0990019E81F /* debug_01.c */; };
+		C0A23DD61AF4C0990019E81F /* Hello.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23DD11AF4C0990019E81F /* Hello.c */; };
+		C0A23DD71AF4C0990019E81F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23DD31AF4C0990019E81F /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,13 +25,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C0A9F4DA1AF4894A00672211 /* learning_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning_c; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A9F4DD1AF4894A00672211 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		C0A9F4E41AF48C0F00672211 /* debug_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug_01.c; sourceTree = "<group>"; };
-		C0A9F4E51AF48C0F00672211 /* debug_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug_01.h; sourceTree = "<group>"; };
-		C0A9F4E71AF48DEB00672211 /* Hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Hello.c; sourceTree = "<group>"; };
-		C0A9F4E81AF48DEB00672211 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
-		C0A9F4EA1AF490A500672211 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		C0A23DCF1AF4C0990019E81F /* debug_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug_01.c; sourceTree = "<group>"; };
+		C0A23DD01AF4C0990019E81F /* debug_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug_01.h; sourceTree = "<group>"; };
+		C0A23DD11AF4C0990019E81F /* Hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Hello.c; sourceTree = "<group>"; };
+		C0A23DD21AF4C0990019E81F /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		C0A23DD31AF4C0990019E81F /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0A23DD41AF4C0990019E81F /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		C0A9F4DA1AF4894A00672211 /* sp_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sp_c; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,10 +45,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0A23DCE1AF4C0990019E81F /* sp_c */ = {
+			isa = PBXGroup;
+			children = (
+				C0A23DCF1AF4C0990019E81F /* debug_01.c */,
+				C0A23DD01AF4C0990019E81F /* debug_01.h */,
+				C0A23DD11AF4C0990019E81F /* Hello.c */,
+				C0A23DD21AF4C0990019E81F /* Hello.h */,
+				C0A23DD31AF4C0990019E81F /* main.c */,
+				C0A23DD41AF4C0990019E81F /* main.h */,
+			);
+			path = sp_c;
+			sourceTree = "<group>";
+		};
 		C0A9F4D11AF4894A00672211 = {
 			isa = PBXGroup;
 			children = (
-				C0A9F4DC1AF4894A00672211 /* learning_c */,
+				C0A23DCE1AF4C0990019E81F /* sp_c */,
 				C0A9F4DB1AF4894A00672211 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,38 +69,17 @@
 		C0A9F4DB1AF4894A00672211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C0A9F4DA1AF4894A00672211 /* learning_c */,
+				C0A9F4DA1AF4894A00672211 /* sp_c */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C0A9F4DC1AF4894A00672211 /* learning_c */ = {
-			isa = PBXGroup;
-			children = (
-				C0A9F4EB1AF4AF1B00672211 /* view Controllers */,
-			);
-			path = learning_c;
-			sourceTree = "<group>";
-		};
-		C0A9F4EB1AF4AF1B00672211 /* view Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				C0A9F4DD1AF4894A00672211 /* main.c */,
-				C0A9F4EA1AF490A500672211 /* main.h */,
-				C0A9F4E71AF48DEB00672211 /* Hello.c */,
-				C0A9F4E81AF48DEB00672211 /* Hello.h */,
-				C0A9F4E41AF48C0F00672211 /* debug_01.c */,
-				C0A9F4E51AF48C0F00672211 /* debug_01.h */,
-			);
-			name = "view Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C0A9F4D91AF4894A00672211 /* learning_c */ = {
+		C0A9F4D91AF4894A00672211 /* sp_c */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C0A9F4E11AF4894A00672211 /* Build configuration list for PBXNativeTarget "learning_c" */;
+			buildConfigurationList = C0A9F4E11AF4894A00672211 /* Build configuration list for PBXNativeTarget "sp_c" */;
 			buildPhases = (
 				C0A9F4D61AF4894A00672211 /* Sources */,
 				C0A9F4D71AF4894A00672211 /* Frameworks */,
@@ -97,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = learning_c;
+			name = sp_c;
 			productName = learning_c;
-			productReference = C0A9F4DA1AF4894A00672211 /* learning_c */;
+			productReference = C0A9F4DA1AF4894A00672211 /* sp_c */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C0A9F4D51AF4894A00672211 /* Build configuration list for PBXProject "learning_c" */;
+			buildConfigurationList = C0A9F4D51AF4894A00672211 /* Build configuration list for PBXProject "sp_c" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C0A9F4D91AF4894A00672211 /* learning_c */,
+				C0A9F4D91AF4894A00672211 /* sp_c */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0A9F4E91AF48DEB00672211 /* Hello.c in Sources */,
-				C0A9F4E61AF48C0F00672211 /* debug_01.c in Sources */,
-				C0A9F4DE1AF4894A00672211 /* main.c in Sources */,
+				C0A23DD61AF4C0990019E81F /* Hello.c in Sources */,
+				C0A23DD51AF4C0990019E81F /* debug_01.c in Sources */,
+				C0A23DD71AF4C0990019E81F /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,21 +216,21 @@
 		C0A9F4E21AF4894A00672211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = sp_c;
 			};
 			name = Debug;
 		};
 		C0A9F4E31AF4894A00672211 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = sp_c;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C0A9F4D51AF4894A00672211 /* Build configuration list for PBXProject "learning_c" */ = {
+		C0A9F4D51AF4894A00672211 /* Build configuration list for PBXProject "sp_c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A9F4DF1AF4894A00672211 /* Debug */,
@@ -247,7 +239,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C0A9F4E11AF4894A00672211 /* Build configuration list for PBXNativeTarget "learning_c" */ = {
+		C0A9F4E11AF4894A00672211 /* Build configuration list for PBXNativeTarget "sp_c" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0A9F4E21AF4894A00672211 /* Debug */,
