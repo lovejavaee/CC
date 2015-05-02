@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C0A9F4DE1AF4894A00672211 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A9F4DD1AF4894A00672211 /* main.c */; };
+		C0A9F4E61AF48C0F00672211 /* debug_01.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A9F4E41AF48C0F00672211 /* debug_01.c */; };
+		C0A9F4E91AF48DEB00672211 /* Hello.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A9F4E71AF48DEB00672211 /* Hello.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		C0A9F4DA1AF4894A00672211 /* learning_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = learning_c; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A9F4DD1AF4894A00672211 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0A9F4E41AF48C0F00672211 /* debug_01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = debug_01.c; sourceTree = "<group>"; };
+		C0A9F4E51AF48C0F00672211 /* debug_01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug_01.h; sourceTree = "<group>"; };
+		C0A9F4E71AF48DEB00672211 /* Hello.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Hello.c; sourceTree = "<group>"; };
+		C0A9F4E81AF48DEB00672211 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
+		C0A9F4EA1AF490A500672211 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				C0A9F4DD1AF4894A00672211 /* main.c */,
+				C0A9F4EA1AF490A500672211 /* main.h */,
+				C0A9F4E71AF48DEB00672211 /* Hello.c */,
+				C0A9F4E81AF48DEB00672211 /* Hello.h */,
+				C0A9F4E41AF48C0F00672211 /* debug_01.c */,
+				C0A9F4E51AF48C0F00672211 /* debug_01.h */,
 			);
 			path = learning_c;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A9F4E91AF48DEB00672211 /* Hello.c in Sources */,
+				C0A9F4E61AF48C0F00672211 /* debug_01.c in Sources */,
 				C0A9F4DE1AF4894A00672211 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
