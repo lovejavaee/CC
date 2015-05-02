@@ -13,4 +13,4 @@
 
 #endif /* defined(__learning_c__debug_01__) */
 
-int main_test01(int argc, const char * argv[])
+int debug(int argc, const char * argv[]);

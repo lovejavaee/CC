@@ -7,7 +7,7 @@
 //
 
 #include "debug_01.h"
-int main_test01(int argc, const char * argv[])
+int debug(int argc, const char * argv[])
 {
     int i, n;
     

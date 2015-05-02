@@ -8,7 +8,7 @@
 
 #ifndef learning_c_main_h
 #define learning_c_main_h
-
+#include <stdio.h>
 #include "debug_01.h"
 
 #endif
