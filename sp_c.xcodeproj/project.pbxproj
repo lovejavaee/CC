@@ -33,6 +33,11 @@
 		C0A23E791AF5068E0019E81F /* rocks.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E601AF5068E0019E81F /* rocks.c */; };
 		C0A23E7A1AF5068E0019E81F /* variable.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E611AF5068E0019E81F /* variable.c */; };
 		C0A23E821AF518960019E81F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E811AF518960019E81F /* main.c */; };
+		C0A23EA41AF5260F0019E81F /* dA.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E981AF5260F0019E81F /* dA.c */; };
+		C0A23EA51AF5260F0019E81F /* DBN.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E9A1AF5260F0019E81F /* DBN.c */; };
+		C0A23EA61AF5260F0019E81F /* LogisticRegression.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E9D1AF5260F0019E81F /* LogisticRegression.c */; };
+		C0A23EA71AF5260F0019E81F /* RBM.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23E9F1AF5260F0019E81F /* RBM.c */; };
+		C0A23EA81AF5260F0019E81F /* SdA.c in Sources */ = {isa = PBXBuildFile; fileRef = C0A23EA11AF5260F0019E81F /* SdA.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +90,18 @@
 		C0A23E611AF5068E0019E81F /* variable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = variable.c; sourceTree = "<group>"; };
 		C0A23E7F1AF518960019E81F /* sp_c_target */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sp_c_target; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A23E811AF518960019E81F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		C0A23E981AF5260F0019E81F /* dA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dA.c; sourceTree = "<group>"; };
+		C0A23E991AF5260F0019E81F /* dA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dA.h; sourceTree = "<group>"; };
+		C0A23E9A1AF5260F0019E81F /* DBN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DBN.c; sourceTree = "<group>"; };
+		C0A23E9B1AF5260F0019E81F /* DBN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBN.h; sourceTree = "<group>"; };
+		C0A23E9C1AF5260F0019E81F /* HiddenLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenLayer.h; sourceTree = "<group>"; };
+		C0A23E9D1AF5260F0019E81F /* LogisticRegression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LogisticRegression.c; sourceTree = "<group>"; };
+		C0A23E9E1AF5260F0019E81F /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticRegression.h; sourceTree = "<group>"; };
+		C0A23E9F1AF5260F0019E81F /* RBM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RBM.c; sourceTree = "<group>"; };
+		C0A23EA01AF5260F0019E81F /* RBM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBM.h; sourceTree = "<group>"; };
+		C0A23EA11AF5260F0019E81F /* SdA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SdA.c; sourceTree = "<group>"; };
+		C0A23EA21AF5260F0019E81F /* SdA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SdA.h; sourceTree = "<group>"; };
+		C0A23EA31AF5260F0019E81F /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
 		C0A9F4DA1AF4894A00672211 /* sp_c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sp_c; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +126,18 @@
 		C0A23E471AF5068E0019E81F /* src */ = {
 			isa = PBXGroup;
 			children = (
+				C0A23E981AF5260F0019E81F /* dA.c */,
+				C0A23E991AF5260F0019E81F /* dA.h */,
+				C0A23E9A1AF5260F0019E81F /* DBN.c */,
+				C0A23E9B1AF5260F0019E81F /* DBN.h */,
+				C0A23E9C1AF5260F0019E81F /* HiddenLayer.h */,
+				C0A23E9D1AF5260F0019E81F /* LogisticRegression.c */,
+				C0A23E9E1AF5260F0019E81F /* LogisticRegression.h */,
+				C0A23E9F1AF5260F0019E81F /* RBM.c */,
+				C0A23EA01AF5260F0019E81F /* RBM.h */,
+				C0A23EA11AF5260F0019E81F /* SdA.c */,
+				C0A23EA21AF5260F0019E81F /* SdA.h */,
+				C0A23EA31AF5260F0019E81F /* utils.h */,
 				C0A23E481AF5068E0019E81F /* compiler */,
 				C0A23E491AF5068E0019E81F /* constant.c */,
 				C0A23E4A1AF5068E0019E81F /* expression.c */,
@@ -254,12 +283,15 @@
 				C0A23E6F1AF5068E0019E81F /* hfc_scan_number.c in Sources */,
 				C0A23E761AF5068E0019E81F /* hfc_string_strstr.c in Sources */,
 				C0A23E681AF5068E0019E81F /* hfc_cards.c in Sources */,
+				C0A23EA61AF5260F0019E81F /* LogisticRegression.c in Sources */,
 				C0A23E651AF5068E0019E81F /* hfc_0.c in Sources */,
 				C0A23E6B1AF5068E0019E81F /* hfc_champagne.c in Sources */,
+				C0A23EA51AF5260F0019E81F /* DBN.c in Sources */,
 				C0A23E641AF5068E0019E81F /* hello.c in Sources */,
 				C0A23E691AF5068E0019E81F /* hfc_cards1.c in Sources */,
 				C0A23E701AF5068E0019E81F /* hfc_scan_text.c in Sources */,
 				C0A23E661AF5068E0019E81F /* hfc_array_of_array.c in Sources */,
+				C0A23EA81AF5260F0019E81F /* SdA.c in Sources */,
 				C0A23E721AF5068E0019E81F /* hfc_string_copy.c in Sources */,
 				C0A23E621AF5068E0019E81F /* constant.c in Sources */,
 				C0A23E631AF5068E0019E81F /* expression.c in Sources */,
@@ -274,7 +306,9 @@
 				C0A23E6A1AF5068E0019E81F /* hfc_cards_switch.c in Sources */,
 				C0A23E741AF5068E0019E81F /* hfc_string_copy3.c in Sources */,
 				C0A23E7A1AF5068E0019E81F /* variable.c in Sources */,
+				C0A23EA41AF5260F0019E81F /* dA.c in Sources */,
 				C0A23E781AF5068E0019E81F /* hfc_while.c in Sources */,
+				C0A23EA71AF5260F0019E81F /* RBM.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
