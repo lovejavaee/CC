@@ -1,0 +1,6 @@
+hello:main.o 
+	cc -o hello main.c
+main.o:main.c
+	cc -c main.c
+clean:
+	rm -f hello main.o
