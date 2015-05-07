@@ -5,7 +5,7 @@
  */
 #include <stdio.h>
 
-int main()
+int main(int argc, char * argv[])
 {
     int decks;
     puts("Enter a number of decks");
